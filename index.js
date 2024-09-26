@@ -1,13 +1,6 @@
-  var prompt = require('prompt');
+var prompt = require('prompt');
 
-  //
-  // Start the prompt
-  //
 prompt.start();
-
-  //
-  // Get two properties from the user: username and email
-  //
 
 
 prompt.get(['ID','SN'], function (err, result) {
